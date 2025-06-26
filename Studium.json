@@ -1,13 +1,408 @@
 {
-    "Studium": "Angewandte Kuenstliche Intelligenz",
-    "module": [
+    "study_name": "",
+    "student_name": "",
+    "study_start_date": "2025-06-26T21:10:50.876201",
+    "module_duration": 0,
+    "semesters": [
         {
-            "ID": 1,
-            "code": "DLBDSEAIS1_D",
-            "name": "Artificial Intelligence",
-            "ects": 5,
-            "typeofexam": "Klausur",
-            "semester": 1
+            "semester_number": 1,
+            "modules": [
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876204"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876209"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876211"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876212"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876213"
+                    }
+                }
+            ]
+        },
+        {
+            "semester_number": 2,
+            "modules": [
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876216"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876217"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876218"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876219"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876219"
+                    }
+                }
+            ]
+        },
+        {
+            "semester_number": 3,
+            "modules": [
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876221"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876222"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876223"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876223"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876224"
+                    }
+                }
+            ]
+        },
+        {
+            "semester_number": 4,
+            "modules": [
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876226"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876226"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876238"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876239"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876240"
+                    }
+                }
+            ]
+        },
+        {
+            "semester_number": 5,
+            "modules": [
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876244"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876245"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876245"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876246"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876247"
+                    }
+                }
+            ]
+        },
+        {
+            "semester_number": 6,
+            "modules": [
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876248"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876249"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876250"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876251"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876252"
+                    }
+                }
+            ]
+        },
+        {
+            "semester_number": 7,
+            "modules": [
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876253"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876254"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876254"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876255"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876256"
+                    }
+                }
+            ]
+        },
+        {
+            "semester_number": 8,
+            "modules": [
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876257"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876258"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876259"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876259"
+                    }
+                },
+                {
+                    "module_ID": "",
+                    "module_name": "",
+                    "module_ects": 0,
+                    "assessment": {
+                        "grade": 0.0,
+                        "assessment_date": "2025-06-26T21:10:50.876260"
+                    }
+                }
+            ]
         }
     ]
 }

@@ -15,8 +15,8 @@ class HeaderFrame(ctk.CTkFrame):
         self.frame_header_right.pack(side="right", fill="both", expand=True)
 
         # add a label to the left header frame
-        label_title = ctk.CTkLabel(self.frame_header_left, text="B.SC. ANGEWANDTE KÜNSTLICHE INTELLIGENZ", font=("Roboto", 22, "bold"), text_color=TITLE_COLOR, anchor="w")
-        label_title.pack(padx=25, pady=25, fill="both", expand=True)
+        self.label_study_name = ctk.CTkLabel(self.frame_header_left, text="B.SC. ANGEWANDTE KÜNSTLICHE INTELLIGENZ", font=("Roboto", 22, "bold"), text_color=TITLE_COLOR, anchor="w")
+        self.label_study_name.pack(padx=25, pady=25, fill="both", expand=True)
 
         # add the menu button
         image = Image.open("menu.png")
@@ -35,6 +35,22 @@ class HeaderFrame(ctk.CTkFrame):
         button.pack(padx=20, pady=20, side="right")
 
         # add a label to the left header frame
-        label_name = ctk.CTkLabel(self.frame_header_right, text="Martin Pichler", font=("Roboto", 16, "bold"), text_color=TITLE_COLOR, anchor="e")
-        label_name.pack(side="right")
+        self.label_student_name = ctk.CTkLabel(self.frame_header_right, text="Martin Pichler", font=("Roboto", 16, "bold"), text_color=TITLE_COLOR, anchor="e")
+        self.label_student_name.pack(side="right")
 
+
+    @property
+    def study_name(self):
+        return self.label_study_name.cget("text")
+
+    @study_name.setter
+    def study_name(self, name):
+        self.label_study_name.config(text=name)
+
+    @property
+    def student_name(self):
+        return self.label_student_name.cget("text")
+
+    @student_name.setter
+    def student_name(self, name):
+        self.label_student_name.config(text=name)

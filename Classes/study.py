@@ -1,13 +1,7 @@
 from dataclasses import dataclass, field
 from datetime import datetime
 from typing import List
-from enum import Enum
 
-
-class StudyMode(Enum):
-    FULL_TIME = "Full-time"
-    PART_TIME_1 = "Part-time 1"
-    PART_TIME_2 = "Part-time 2"
 
 @dataclass
 class Assessment:
@@ -16,11 +10,10 @@ class Assessment:
 
 @dataclass
 class Module:
-    ID: str
-    name: str
-    ects: int
-    type_of_assessment: str
-    assessments: List[Assessment] = field(default_factory=list)
+    module_ID: str
+    module_name: str
+    module_ects: int
+    assessment: Assessment
 
 @dataclass
 class Semester:
@@ -29,11 +22,10 @@ class Semester:
 
 @dataclass
 class CourseOfStudy: 
-    name: str
-    student: str
-    start_date: datetime
+    study_name: str
+    student_name: str
+    study_start_date: datetime
     module_duration: int  # in months
-    study_mode: StudyMode
     semesters: List[Semester] = field(default_factory=list)
     
         

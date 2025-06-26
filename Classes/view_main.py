@@ -1,5 +1,4 @@
 import customtkinter as ctk
-from study import StudyMode
 from tkinter import ttk
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
@@ -32,8 +31,8 @@ class MainWindow(ctk.CTk):
         
         self.create_base_frames()
 
-        self.header = SemesterFrame(self.frame_header, self.frame_base_left, self.frame_base_center, self.on_treeview_select)
-        self.header.pack(fill="both", expand=True)
+        self.semester = SemesterFrame(self.frame_header, self.frame_base_left, self.frame_base_center, self.on_treeview_select)
+        self.semester.pack(fill="both", expand=True)
 
 
     def create_main_frames(self):
@@ -49,6 +48,10 @@ class MainWindow(ctk.CTk):
         self.frame_base.grid_rowconfigure(0, weight=1)
 
 
+    def show_data(self):
+        print("Click")
+
+
     def on_account_click(self):
         popup = ctk.CTkToplevel(self)
         popup.title("Studieninformationen")
@@ -56,16 +59,18 @@ class MainWindow(ctk.CTk):
         popup.grab_set()
 
         # name
-        name_label = ctk.CTkLabel(popup, text="Name des Studiums")
-        name_label.pack(anchor="w", padx=20)
-        name_entry = ctk.CTkEntry(popup)
-        name_entry.pack(pady=5, padx=20, fill="x")
+        study_name_label = ctk.CTkLabel(popup, text="Name des Studiums")
+        study_name_label.pack(anchor="w", padx=20)
+        study_name_entry = ctk.CTkEntry(popup)
+        study_name_entry.pack(pady=5, padx=20, fill="x")
+        study_name_entry.insert(0, self.header.study_name)
 
         # student name
         student_label = ctk.CTkLabel(popup, text="Name des Studiums")
         student_label.pack(anchor="w", padx=20)
         student_entry = ctk.CTkEntry(popup)
         student_entry.pack(pady=5, padx=20, fill="x")
+        student_entry.insert(0, self.header.student_name)
 
         # start date
         start_label = ctk.CTkLabel(popup, text="Studienstart (TT.MM.JJJJ)")
@@ -78,6 +83,9 @@ class MainWindow(ctk.CTk):
         duration_label.pack(anchor="w", padx=20)
         duration_entry = ctk.CTkEntry(popup)
         duration_entry.pack(pady=5, padx=20, fill="x")
+
+        show_button = ttk.Button(popup, text="Anzeigen", command=self.show_data)
+        show_button.grid(row=2, column=0, columnspan=2, pady=10)
 
 
     def create_base_frames(self):
