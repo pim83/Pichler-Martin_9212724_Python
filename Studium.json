@@ -1,0 +1,13 @@
+{
+    "Studium": "Angewandte Kuenstliche Intelligenz",
+    "module": [
+        {
+            "ID": 1,
+            "code": "DLBDSEAIS1_D",
+            "name": "Artificial Intelligence",
+            "ects": 5,
+            "typeofexam": "Klausur",
+            "semester": 1
+        }
+    ]
+}

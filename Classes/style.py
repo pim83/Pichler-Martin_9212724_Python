@@ -1,0 +1,3 @@
+BG_COLOR = "#E5E8EC"
+CANVAS_COLOR = "#fafafa"
+TITLE_COLOR = "#222527"
