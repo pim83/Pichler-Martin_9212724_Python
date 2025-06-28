@@ -5,16 +5,26 @@ from datetime import datetime
 import os
 
 
-if __name__ == "__main__":
-    file_path = "studium.json"
+file_path = "studium.json"
 
+
+def initialize_data(path: str) -> CourseOfStudy:
+    
     # Check if the file exists, if not create an empty course and save it
-    if not os.path.exists(file_path):
-        course = create_empty_course()
-        save_course_to_file(course, file_path)
+    if not os.path.exists(path):
+        data = create_empty_course()
+        save_course_to_file(data, path)
     else:
-        course = load_course_from_file(file_path)
+        data = load_course_from_file(path)
+
+    return data
+
+
+if __name__ == "__main__":
+
+    # Initialize data
+    study_data = initialize_data(file_path)
 
     # start the UI
-    app = MainWindow()
+    app = MainWindow(study_data)
     app.mainloop()

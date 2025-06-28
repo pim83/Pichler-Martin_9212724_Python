@@ -1,55 +1,55 @@
 {
-    "study_name": "",
+    "study_name": "B.SC.",
     "student_name": "",
-    "study_start_date": "2025-06-26T21:10:50.876201",
+    "study_start_date": "2025-06-26T21:10:50.876216",
     "module_duration": 0,
     "semesters": [
         {
             "semester_number": 1,
             "modules": [
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBDSEAIS1_D",
+                    "module_name": "Artificial Intelligence",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
-                        "assessment_date": "2025-06-26T21:10:50.876204"
+                        "assessment_date": "2025-06-26T21:10:50.876216"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBWIRITT",
+                    "module_name": "Einführung in das wissenschaftliche Arbeiten",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
-                        "assessment_date": "2025-06-26T21:10:50.876209"
+                        "assessment_date": "2025-06-26T21:10:50.876216"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBDSIPWP_D",
+                    "module_name": "Einführung in die Programmierung mit Python",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
-                        "assessment_date": "2025-06-26T21:10:50.876211"
+                        "assessment_date": "2025-06-26T21:10:50.876216"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBBIMD",
+                    "module_name": "Mathematik: Analysis",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
-                        "assessment_date": "2025-06-26T21:10:50.876212"
+                        "assessment_date": "2025-06-26T21:10:50.876216"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBKA",
+                    "module_name": "Kollaboratives Arbeiten",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
-                        "assessment_date": "2025-06-26T21:10:50.876213"
+                        "assessment_date": "2025-06-26T21:10:50.876216"
                     }
                 }
             ]

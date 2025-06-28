@@ -1,10 +1,11 @@
 import customtkinter as ctk
 from PIL import Image
 from style import BG_COLOR, CANVAS_COLOR, TITLE_COLOR
+from study import CourseOfStudy, Semester, Module, Assessment
 
 
 class HeaderFrame(ctk.CTkFrame):
-    def __init__(self, master, click):
+    def __init__(self, master, click, study_data: CourseOfStudy):
         super().__init__(master, height=80, fg_color="transparent", corner_radius=0)
         self.pack_propagate(False)
 
@@ -15,7 +16,7 @@ class HeaderFrame(ctk.CTkFrame):
         self.frame_header_right.pack(side="right", fill="both", expand=True)
 
         # add a label to the left header frame
-        self.label_study_name = ctk.CTkLabel(self.frame_header_left, text="B.SC. ANGEWANDTE KÜNSTLICHE INTELLIGENZ", font=("Roboto", 22, "bold"), text_color=TITLE_COLOR, anchor="w")
+        self.label_study_name = ctk.CTkLabel(self.frame_header_left, text=study_data.study_name, font=("Roboto", 22, "bold"), text_color=TITLE_COLOR, anchor="w")
         self.label_study_name.pack(padx=25, pady=25, fill="both", expand=True)
 
         # add the menu button
@@ -35,22 +36,10 @@ class HeaderFrame(ctk.CTkFrame):
         button.pack(padx=20, pady=20, side="right")
 
         # add a label to the left header frame
-        self.label_student_name = ctk.CTkLabel(self.frame_header_right, text="Martin Pichler", font=("Roboto", 16, "bold"), text_color=TITLE_COLOR, anchor="e")
+        self.label_student_name = ctk.CTkLabel(self.frame_header_right, text=study_data.student_name, font=("Roboto", 16, "bold"), text_color=TITLE_COLOR, anchor="e")
         self.label_student_name.pack(side="right")
 
 
-    @property
-    def study_name(self):
-        return self.label_study_name.cget("text")
-
-    @study_name.setter
-    def study_name(self, name):
-        self.label_study_name.config(text=name)
-
-    @property
-    def student_name(self):
-        return self.label_student_name.cget("text")
-
-    @student_name.setter
-    def student_name(self, name):
-        self.label_student_name.config(text=name)
+    def update_labels(self, study_data: CourseOfStudy):
+        self.label_study_name.configure(text=study_data.study_name.upper())
+        self.label_student_name.configure(text=study_data.student_name)
