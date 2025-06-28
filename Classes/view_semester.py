@@ -7,6 +7,7 @@ from style import BG_COLOR, CANVAS_COLOR, TITLE_COLOR
 class SemesterFrame(ctk.CTkFrame):
     def __init__(self, master, frame_left, frame_center, click):
         super().__init__(master, fg_color="transparent", corner_radius=0)
+        self.treeview_semester_map = {}
 
         for i in range(0, 2):
             for j in range(0, 4):
@@ -14,6 +15,8 @@ class SemesterFrame(ctk.CTkFrame):
 
                 frame = ctk.CTkFrame(target_frame, fg_color=CANVAS_COLOR, corner_radius=20)
                 frame.grid(row=j, column=0, sticky="nsew", padx=10, pady=10)
+                semester_number = (j + 1) + (i * 4)
+
                 label = ctk.CTkLabel(frame, text=f"SEMESTER {(j+1)+(i*4)}", font=("Roboto", 12, "bold"), text_color=TITLE_COLOR, anchor="w")
                 label.grid(padx=20, pady=20, sticky="w")
 
@@ -47,3 +50,6 @@ class SemesterFrame(ctk.CTkFrame):
 
                 # event binding for the row selection
                 tree.bind("<<TreeviewSelect>>", click)
+
+                # add treeview to the map
+                self.treeview_semester_map[tree] = semester_number

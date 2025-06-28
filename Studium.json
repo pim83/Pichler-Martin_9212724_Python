@@ -1,8 +1,8 @@
 {
-    "study_name": "B.SC.",
-    "student_name": "",
-    "study_start_date": "2025-06-26T21:10:50.876216",
-    "module_duration": 0,
+    "study_name": "B.SC. Angewandte Kuenstliche Intelligenz",
+    "student_name": "Martin Pichler",
+    "study_start_date": "2023-05-14T00:00:00",
+    "module_duration": 2,
     "semesters": [
         {
             "semester_number": 1,
@@ -18,7 +18,7 @@
                 },
                 {
                     "module_ID": "DLBWIRITT",
-                    "module_name": "Einführung in das wissenschaftliche Arbeiten",
+                    "module_name": "Einfuehrung in das wissenschaftliche Arbeiten",
                     "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
@@ -27,7 +27,7 @@
                 },
                 {
                     "module_ID": "DLBDSIPWP_D",
-                    "module_name": "Einführung in die Programmierung mit Python",
+                    "module_name": "Einfuehrung in die Programmierung mit Python",
                     "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,

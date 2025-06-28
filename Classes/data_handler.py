@@ -56,7 +56,7 @@ def deserialize_course(data: dict) -> CourseOfStudy:
 
 
 def save_course_to_file(course: CourseOfStudy, filename: str):
-    with open(filename, "x") as f:
+    with open(filename, "w") as f:
         json.dump(serialize_course(course), f, indent=4)
 
 

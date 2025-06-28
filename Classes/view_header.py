@@ -16,7 +16,7 @@ class HeaderFrame(ctk.CTkFrame):
         self.frame_header_right.pack(side="right", fill="both", expand=True)
 
         # add a label to the left header frame
-        self.label_study_name = ctk.CTkLabel(self.frame_header_left, text=study_data.study_name, font=("Roboto", 22, "bold"), text_color=TITLE_COLOR, anchor="w")
+        self.label_study_name = ctk.CTkLabel(self.frame_header_left, text=study_data.study_name.upper(), font=("Roboto", 22, "bold"), text_color=TITLE_COLOR, anchor="w")
         self.label_study_name.pack(padx=25, pady=25, fill="both", expand=True)
 
         # add the menu button
