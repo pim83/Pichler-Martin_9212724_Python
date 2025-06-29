@@ -1,6 +1,6 @@
 from view_main import MainWindow
 from data_handler import save_course_to_file, load_course_from_file, create_empty_course
-from study import CourseOfStudy, Semester, Module, Assessment
+from study import CourseOfStudy
 import os
 
 

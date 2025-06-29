@@ -1,7 +1,7 @@
 import customtkinter as ctk
 from PIL import Image
 from style import BG_COLOR, CANVAS_COLOR, TITLE_COLOR
-from study import CourseOfStudy, Semester, Module, Assessment
+from study import CourseOfStudy
 
 
 class HeaderFrame(ctk.CTkFrame):

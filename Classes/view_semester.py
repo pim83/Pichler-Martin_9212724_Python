@@ -2,10 +2,11 @@ import customtkinter as ctk
 from tkinter import ttk
 from PIL import Image
 from style import BG_COLOR, CANVAS_COLOR, TITLE_COLOR
+from study import CourseOfStudy
 
 
 class SemesterFrame(ctk.CTkFrame):
-    def __init__(self, master, frame_left, frame_center, click):
+    def __init__(self, master, frame_left, frame_center, click, study_data: CourseOfStudy):
         super().__init__(master, fg_color="transparent", corner_radius=0)
         self.treeview_semester_map = {}
 
@@ -38,12 +39,16 @@ class SemesterFrame(ctk.CTkFrame):
                 tree.column("ects", width=10, anchor="center")
                 tree.column("grade", width=10, anchor="center")
 
-                # Beispiel-Daten
-                tree.insert("", "end", values=("DLBDSEAIS1_D", "Artificial Intelligence", "5", ""))
-                tree.insert("", "end", values=("DLBWIRITT", "Einführung in das wissenschaftliche Arbeiten", "5", "2.7"))
-                tree.insert("", "end", values=("DLBDSIPWP_D", "Einführung in die Programmierung mit Python", "5", "2.0"))
-                tree.insert("", "end", values=("DLBBIMD", "Mathematik: Analysis", "5", ""))
-                tree.insert("", "end", values=("DLBKA", "Kollaboratives Arbeiten", "5", "0"))
+                # Semester-Objekt aus study_data finden
+                semester_obj = next((s for s in study_data.semesters if s.semester_number == semester_number), None)
+
+                if semester_obj:
+                    for module in semester_obj.modules:
+                        grade_str = ""
+                        if module.assessment and module.assessment.grade is not None:
+                            grade_str = f"{module.assessment.grade:.1f}"
+        
+                        tree.insert("", "end", values=(module.module_ID, module.module_name, str(module.module_ects), grade_str))
 
                 # treeview postion
                 tree.grid(row=1, column=0, sticky="nsew", padx=10, pady=(0, 10))

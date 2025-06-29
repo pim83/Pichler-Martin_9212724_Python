@@ -37,7 +37,7 @@ class MainWindow(ctk.CTk):
         
         self.create_base_frames()
 
-        self.semester = SemesterFrame(self.frame_base, self.frame_base_left, self.frame_base_center, self.on_treeview_select)
+        self.semester = SemesterFrame(self.frame_base, self.frame_base_left, self.frame_base_center, self.on_treeview_select, study_data)
         self.treeview_semester_map = self.semester.treeview_semester_map
 
 
@@ -145,7 +145,7 @@ class MainWindow(ctk.CTk):
         if not values:
             return
 
-        tree.selection_remove(tree.selection())
+        #tree.selection_remove(tree.selection())
         
         # open window
         self.open_window_module(semester_number, selected_item, values)
@@ -153,6 +153,7 @@ class MainWindow(ctk.CTk):
 
     def on_click_save_module(self):
         print("Save Module")
+        self.window_module.destroy()
 
 
     def open_window_module(self, semester_number, selcted_item, values):
