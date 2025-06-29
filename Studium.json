@@ -58,36 +58,36 @@
             "semester_number": 2,
             "modules": [
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBDSSPDS_D",
+                    "module_name": "Statistik - Wahrscheinlichkeit und deskript. Statistik",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876216"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBDSOOFPP_D",
+                    "module_name": "Objektorientierte und funktionale Programmierung mit Python",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876217"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBBIM",
+                    "module_name": "Mathematik: Lineare Algebra",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876218"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBIHK",
+                    "module_name": "Interkulturelle und ethische Handlungskompetenzen",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876219"
@@ -108,45 +108,45 @@
             "semester_number": 3,
             "modules": [
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBDSSIS1_D",
+                    "module_name": "Statistik - Induktive Statistik",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876221"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBDSCC_D",
+                    "module_name": "Cloud Computing",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876222"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBSEPCP_D",
+                    "module_name": "Projekt: Cloud Programming",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876223"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBDSMLSL_D",
+                    "module_name": "Maschinelles Lernen - Supervised Learning",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876223"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBDSMLUSL_D",
+                    "module_name": "Maschinelles Lernen - Unsuperv. Learning u. Feature Engineering",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876224"
@@ -158,36 +158,36 @@
             "semester_number": 4,
             "modules": [
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBDSNNDL_D",
+                    "module_name": "Neuronale Netze und Deep Learning",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876226"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBAIICV_D",
+                    "module_name": "Einfuehrung in Computer Vision",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876226"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBAIPCV_D",
+                    "module_name": "Projekt: Computer Vision",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876238"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBAIIRL_D",
+                    "module_name": "Einfuehrung in Reinforcement Learning",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876239"
@@ -208,45 +208,45 @@
             "semester_number": 5,
             "modules": [
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBAIINLP_D",
+                    "module_name": "Einfuehrung in NLP",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876244"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBAIPNLP_D",
+                    "module_name": "Projekt: NLP",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876245"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBINGEDS",
+                    "module_name": "Einfuehrung in Datenschutz und IT-Sicherheit",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876245"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBDSDSSE_D",
+                    "module_name": "Data Science Software Engineering",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876246"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBDSMTP_D",
+                    "module_name": "Projekt: Vom Modell zum Produktivsystem",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876247"
@@ -258,36 +258,36 @@
             "semester_number": 6,
             "modules": [
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBDSSECDS_D",
+                    "module_name": "Seminar: Ethische Fragen der Data Science",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876248"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBMIUEX1-01",
+                    "module_name": "User Experience",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876249"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBMIUEX2",
+                    "module_name": "UX-Projekt oder Projekt: Edge AI",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876250"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBROIR-01_D",
+                    "module_name": "Einfuehrung in die Robotik",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876251"
@@ -308,27 +308,27 @@
             "semester_number": 7,
             "modules": [
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "DLBDBAPM",
+                    "module_name": "Projekt: Agiles Projektmanagment",
+                    "module_ects": 5,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876253"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "Auswahl",
+                    "module_name": "WAHLPFLICHTMODUL A",
+                    "module_ects": 10,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876254"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "Auswahl",
+                    "module_name": "WAHLPFLICHTMODUL B",
+                    "module_ects": 10,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876254"
@@ -358,18 +358,18 @@
             "semester_number": 8,
             "modules": [
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "Auswahl",
+                    "module_name": "WAHLPFLICHTMODUL C",
+                    "module_ects": 10,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876257"
                     }
                 },
                 {
-                    "module_ID": "",
-                    "module_name": "",
-                    "module_ects": 0,
+                    "module_ID": "-",
+                    "module_name": "Bachelorarbeit",
+                    "module_ects": 10,
                     "assessment": {
                         "grade": 0.0,
                         "assessment_date": "2025-06-26T21:10:50.876258"
