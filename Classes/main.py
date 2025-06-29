@@ -4,6 +4,7 @@ from study import CourseOfStudy
 import os
 
 
+# data file must be in the project directory
 file_path = "studium.json"
 
 
@@ -19,6 +20,11 @@ def initialize_data(path: str) -> CourseOfStudy:
     return data
 
 
+def on_closing():
+    app.close_all_plots()
+    app.destroy() 
+
+
 if __name__ == "__main__":
 
     # Initialize data
@@ -26,4 +32,5 @@ if __name__ == "__main__":
 
     # start the UI
     app = MainWindow(study_data)
+    app.protocol("WM_DELETE_WINDOW", on_closing)
     app.mainloop()

@@ -21,7 +21,7 @@
                     "module_name": "Einfuehrung in das wissenschaftliche Arbeiten",
                     "module_ects": 5,
                     "assessment": {
-                        "grade": 0.0,
+                        "grade": 2.7,
                         "assessment_date": "2025-06-26T21:10:50.876216"
                     }
                 },
@@ -30,7 +30,7 @@
                     "module_name": "Einfuehrung in die Programmierung mit Python",
                     "module_ects": 5,
                     "assessment": {
-                        "grade": 0.0,
+                        "grade": 2.0,
                         "assessment_date": "2025-06-26T21:10:50.876216"
                     }
                 },
@@ -80,7 +80,7 @@
                     "module_name": "Mathematik: Lineare Algebra",
                     "module_ects": 5,
                     "assessment": {
-                        "grade": 0.0,
+                        "grade": 3.3,
                         "assessment_date": "2025-06-26T21:10:50.876218"
                     }
                 },
@@ -289,7 +289,7 @@
                     "module_name": "Einfuehrung in die Robotik",
                     "module_ects": 5,
                     "assessment": {
-                        "grade": 0.0,
+                        "grade": 1.7,
                         "assessment_date": "2025-06-26T21:10:50.876251"
                     }
                 },

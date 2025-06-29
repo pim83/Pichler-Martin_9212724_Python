@@ -6,6 +6,7 @@ from PIL import Image
 from style import BG_COLOR, CANVAS_COLOR, TITLE_COLOR
 from view_header import HeaderFrame
 from view_semester import SemesterFrame
+from view_grades import GradesFrame
 from study import CourseOfStudy, Semester, Module, Assessment
 from data_handler import save_course_to_file, load_course_from_file, create_empty_course
 import tkinter.messagebox as messagebox
@@ -39,6 +40,17 @@ class MainWindow(ctk.CTk):
 
         self.semester = SemesterFrame(self.frame_base, self.frame_base_left, self.frame_base_center, self.on_treeview_select, study_data)
         self.treeview_semester_map = self.semester.treeview_semester_map
+
+        self.goal = GradesFrame(self.frame_base_right, study_data)
+        self.goal.pack(fill="both", expand=True, padx=10, pady=10)
+
+        self.goal1 = GradesFrame(self.frame_base_right, study_data)
+        self.goal1.pack(fill="both", expand=True, padx=10, pady=10)
+
+        self.goal2 = GradesFrame(self.frame_base_right, study_data)
+        self.goal2.pack(fill="both", expand=True, padx=10, pady=10)
+
+        
 
 
     def create_main_frames(self):
@@ -195,3 +207,9 @@ class MainWindow(ctk.CTk):
 
         print("Semester_number: ", semester_number)
         print("Selected Item: ", selcted_item)
+
+    
+    def close_all_plots(self):
+        self.goal.close()
+        self.goal1.close()
+        self.goal2.close()

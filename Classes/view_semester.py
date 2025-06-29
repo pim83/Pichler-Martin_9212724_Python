@@ -19,7 +19,7 @@ class SemesterFrame(ctk.CTkFrame):
                 semester_number = (j + 1) + (i * 4)
 
                 label = ctk.CTkLabel(frame, text=f"SEMESTER {(j+1)+(i*4)}", font=("Roboto", 14, "bold"), text_color=TITLE_COLOR, anchor="w")
-                label.grid(padx=15, pady=20, sticky="w")
+                label.grid(padx=30, pady=30, sticky="w")
 
                 frame.grid_rowconfigure(1, weight=1)
                 frame.grid_columnconfigure(0, weight=1)
@@ -56,7 +56,7 @@ class SemesterFrame(ctk.CTkFrame):
                             tree.insert("", "end", values=(module.module_ID, module.module_name, str(module.module_ects), grade_str))
 
                 # treeview postion
-                tree.grid(row=1, column=0, sticky="nsew", padx=10, pady=(0, 10))
+                tree.grid(row=1, column=0, sticky="nsew", padx=(30, 0), pady=(0, 10))
 
                 # event binding for the row selection
                 tree.bind("<<TreeviewSelect>>", click)
