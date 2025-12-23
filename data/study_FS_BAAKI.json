@@ -1,0 +1,398 @@
+{
+    "study_name": "Angewandte K\u00fcnstliche Intelligenz",
+    "study_start_date": "2023-07-01T00:00:00",
+    "semesters": [
+        {
+            "semester_number": 1,
+            "modules": [
+                {
+                    "module_ID": "DLBDSEAIS1_D",
+                    "module_name": "Artificial Intelligence",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 2.2,
+                        "evaluation_date": "2023-12-01T00:00:00",
+                        "exam_duration": 90
+                    }
+                },
+                {
+                    "module_ID": "DLBWIRITT",
+                    "module_name": "Einf\u00fchrung in das wissenschaftliche Arbeiten",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "Project",
+                        "grade": 2.7,
+                        "evaluation_date": "2023-12-05T00:00:00",
+                        "pages_required": 10
+                    }
+                },
+                {
+                    "module_ID": "DLBDSIPWP_D",
+                    "module_name": "Einf\u00fchrung in die Programmierung mit Python",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 2.0,
+                        "evaluation_date": "2023-12-10T00:00:00",
+                        "exam_duration": 90
+                    }
+                },
+                {
+                    "module_ID": "DLBBIMD",
+                    "module_name": "Mathematik: Analysis",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 3.0,
+                        "evaluation_date": "2023-12-15T00:00:00",
+                        "exam_duration": 90
+                    }
+                },
+                {
+                    "module_ID": "DLBKA",
+                    "module_name": "Kollaboratives Arbeiten",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "Project",
+                        "grade": 2.0,
+                        "evaluation_date": "2023-12-05T00:00:00",
+                        "pages_required": 10
+                    }
+                }
+            ]
+        },
+        {
+            "semester_number": 2,
+            "modules": [
+                {
+                    "module_ID": "DLBDSSPDS_D",
+                    "module_name": "Statistik - Wahrscheinlichkeit und deskript. Statistik",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 0.0,
+                        "evaluation_date": "2024-06-01T00:00:00",
+                        "exam_duration": 90
+                    }
+                },
+                {
+                    "module_ID": "DLBDSOOFPP_D",
+                    "module_name": "Objektorientierte und funktionale Programmierung mit Python",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "Project",
+                        "grade": 0.0,
+                        "evaluation_date": "2023-12-05T00:00:00",
+                        "pages_required": 10
+                    }
+                },
+                {
+                    "module_ID": "DLBBIM",
+                    "module_name": "Mathematik: Lineare Algebra",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 2.3,
+                        "evaluation_date": "2024-06-10T00:00:00",
+                        "exam_duration": 90
+                    }
+                },
+                {
+                    "module_ID": "DLBIHK",
+                    "module_name": "Interkulturelle und ethische Handlungskompetenzen",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "Project",
+                        "grade": 0.0,
+                        "evaluation_date": "2023-12-05T00:00:00",
+                        "pages_required": 10
+                    }
+                }
+            ]
+        },
+        {
+            "semester_number": 3,
+            "modules": [
+                {
+                    "module_ID": "DLBDSSIS1_D",
+                    "module_name": "Statistik - Induktive Statistik",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 0.0,
+                        "evaluation_date": "2024-12-01T00:00:00",
+                        "exam_duration": 90
+                    }
+                },
+                {
+                    "module_ID": "DLBDSCC-01_D",
+                    "module_name": "Cloud Computing",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 0.0,
+                        "evaluation_date": "2024-12-05T00:00:00",
+                        "exam_duration": 90
+                    }
+                },
+                {
+                    "module_ID": "DLBSEPCP_D",
+                    "module_name": "Projekt: Cloud Programming",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "Project",
+                        "grade": 0.0,
+                        "evaluation_date": "2023-12-05T00:00:00",
+                        "pages_required": 10
+                    }
+                },
+                {
+                    "module_ID": "DLBDSMLSL_D",
+                    "module_name": "Maschinelles Lernen - Supervised Learning",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 0.0,
+                        "evaluation_date": "2024-12-15T00:00:00",
+                        "exam_duration": 90
+                    }
+                },
+                {
+                    "module_ID": "DLBDSMLUSL_D",
+                    "module_name": "Maschinelles Lernen - Unsupervised Learning",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 0.0,
+                        "evaluation_date": "2024-12-20T00:00:00",
+                        "exam_duration": 90
+                    }
+                }
+            ]
+        },
+        {
+            "semester_number": 4,
+            "modules": [
+                {
+                    "module_ID": "DLBDSNNDL_D",
+                    "module_name": "Neuronale Netze und Deep Learning",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 0.0,
+                        "evaluation_date": "2025-06-01T00:00:00",
+                        "exam_duration": 90
+                    }
+                },
+                {
+                    "module_ID": "DLBAIICV_D",
+                    "module_name": "Einf\u00fchrung in Computer Vision",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 0.0,
+                        "evaluation_date": "2025-06-05T00:00:00",
+                        "exam_duration": 90
+                    }
+                },
+                {
+                    "module_ID": "DLBAIPCV_D",
+                    "module_name": "Projekt: Computer Vision",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "Project",
+                        "grade": 0.0,
+                        "evaluation_date": "2023-12-05T00:00:00",
+                        "pages_required": 10
+                    }
+                },
+                {
+                    "module_ID": "DLBAIIRL_D",
+                    "module_name": "Einf\u00fchrung in Reinforcement Learning",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 0.0,
+                        "evaluation_date": "2025-06-15T00:00:00",
+                        "exam_duration": 90
+                    }
+                }
+            ]
+        },
+        {
+            "semester_number": 5,
+            "modules": [
+                {
+                    "module_ID": "DLBAIINLP_D",
+                    "module_name": "Einf\u00fchrung in NLP",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 0.0,
+                        "evaluation_date": "2025-12-01T00:00:00",
+                        "exam_duration": 90
+                    }
+                },
+                {
+                    "module_ID": "DLBAIPNLP_D",
+                    "module_name": "Projekt: NLP",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 0.0,
+                        "evaluation_date": "2025-12-05T00:00:00",
+                        "exam_duration": 90
+                    }
+                },
+                {
+                    "module_ID": "DLBINGEDS",
+                    "module_name": "Einf\u00fchrung in Datenschutz und IT-Sicherheit",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 0.0,
+                        "evaluation_date": "2025-12-10T00:00:00",
+                        "exam_duration": 90
+                    }
+                },
+                {
+                    "module_ID": "DLBDSDSSE_D",
+                    "module_name": "Data Science Software Engineering",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 0.0,
+                        "evaluation_date": "2025-12-15T00:00:00",
+                        "exam_duration": 90
+                    }
+                },
+                {
+                    "module_ID": "DLBDSMTP_D",
+                    "module_name": "Projekt: Vom Modell zum Produktivsystem",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "Project",
+                        "grade": 0.0,
+                        "evaluation_date": "2023-12-05T00:00:00",
+                        "pages_required": 10
+                    }
+                }
+            ]
+        },
+        {
+            "semester_number": 6,
+            "modules": [
+                {
+                    "module_ID": "DLBDSSECDS_D",
+                    "module_name": "Seminar: Ethische Fragen der Data Science",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 0.0,
+                        "evaluation_date": "2026-06-01T00:00:00",
+                        "exam_duration": 90
+                    }
+                },
+                {
+                    "module_ID": "DLBMIUEX1-01",
+                    "module_name": "User Experience",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 0.0,
+                        "evaluation_date": "2026-06-05T00:00:00",
+                        "exam_duration": 90
+                    }
+                },
+                {
+                    "module_ID": "DLBMIUEX2",
+                    "module_name": "UX-Projekt",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "Project",
+                        "grade": 0.0,
+                        "evaluation_date": "2023-12-05T00:00:00",
+                        "pages_required": 10
+                    }
+                },
+                {
+                    "module_ID": "DLBROIR-01_D",
+                    "module_name": "Einf\u00fchrung in die Robotik",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 1.7,
+                        "evaluation_date": "2026-06-15T00:00:00",
+                        "exam_duration": 90
+                    }
+                }
+            ]
+        },
+        {
+            "semester_number": 7,
+            "modules": [
+                {
+                    "module_ID": "DLBDBAPM",
+                    "module_name": "Projekt: Agiles Projektmanagment",
+                    "module_ects": 5,
+                    "assessment": {
+                        "type": "Project",
+                        "grade": 0.0,
+                        "evaluation_date": "2023-12-05T00:00:00",
+                        "pages_required": 10
+                    }
+                },
+                {
+                    "module_ID": "A",
+                    "module_name": "Wahlpflichtmodul A",
+                    "module_ects": 10,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 0.0,
+                        "evaluation_date": "2026-12-10T00:00:00",
+                        "exam_duration": 90
+                    }
+                },
+                {
+                    "module_ID": "B",
+                    "module_name": "Wahlpflichtmodul B",
+                    "module_ects": 10,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 0.0,
+                        "evaluation_date": "2026-12-20T00:00:00",
+                        "exam_duration": 90
+                    }
+                }
+            ]
+        },
+        {
+            "semester_number": 8,
+            "modules": [
+                {
+                    "module_ID": "C",
+                    "module_name": "Wahlpflichtmodul C",
+                    "module_ects": 10,
+                    "assessment": {
+                        "type": "WrittenExam",
+                        "grade": 0.0,
+                        "evaluation_date": "2027-06-15T00:00:00",
+                        "exam_duration": 90
+                    }
+                },
+                {
+                    "module_ID": "BBAK",
+                    "module_name": "Bachelorarbeit",
+                    "module_ects": 10,
+                    "assessment": {
+                        "type": "Project",
+                        "grade": 0.0,
+                        "evaluation_date": "2023-12-05T00:00:00",
+                        "pages_required": 10
+                    }
+                }
+            ]
+        }
+    ]
+}
