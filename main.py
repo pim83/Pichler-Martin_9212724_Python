@@ -1,9 +1,6 @@
-from student import Student
-from study import CourseOfStudy
-from data_handler import DataHandler
-from datetime import datetime
+from service.data_handler import DataHandler
 from view.view_main import MainWindow
-from study_viewmodel import StudyViewModel
+from service.study_viewmodel import StudyViewModel
 
 
 if __name__ == "__main__":

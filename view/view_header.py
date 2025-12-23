@@ -36,8 +36,8 @@ class HeaderFrame(ctk.CTkFrame):
         self.user_label.pack(side="left", padx=(0, 10))
 
         # load image
-        user_image = ctk.CTkImage(light_image=Image.open("User.png"),
-                      dark_image=Image.open("User.png"),
+        user_image = ctk.CTkImage(light_image=Image.open("icons/User.png"),
+                      dark_image=Image.open("icons/User.png"),
                       size=(35, 35))
 
         # Options button

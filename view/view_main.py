@@ -4,7 +4,7 @@ from view.view_header import HeaderFrame
 from view.view_semester import SemesterFrame
 from view.view_grades import GradesFrame
 from style.style import BG_COLOR
-from study_viewmodel import StudyViewModel
+from service.study_viewmodel import StudyViewModel
 from view.view_thesis import ThesisFrame
 from view.view_timeline import TimelineFrame
 

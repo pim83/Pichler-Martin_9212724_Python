@@ -1,8 +1,8 @@
 from datetime import date
 from sys import modules
-from student import Student
+from model.student import Student
 from dateutil.relativedelta import relativedelta
-from data_handler import DataHandler
+from service.data_handler import DataHandler
 
 
 class StudyViewModel:

@@ -1,4 +1,4 @@
-from study import CourseOfStudy
+from model.study import CourseOfStudy
 from typing import List
 
 

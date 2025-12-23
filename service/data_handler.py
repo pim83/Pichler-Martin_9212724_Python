@@ -1,9 +1,9 @@
 import json
 from datetime import datetime
 from pathlib import Path
-from student import Student
-from study import CourseOfStudy, Semester, Module
-from study import WrittenExam, Project, Presentation
+from model.student import Student
+from model.study import CourseOfStudy, Semester, Module
+from model.study import WrittenExam, Project, Presentation
 
 
 class DataHandler:
